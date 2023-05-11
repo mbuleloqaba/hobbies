@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav>
+			<ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="saveforlater.html">Save for Later <span id="saved-count">(0)</span></a></li>
+            </ul>
+		</nav>
+        <h1>Contact Me</h1>
+    </header>
+  <form action="submit-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <input type="submit" value="Send">
+  </form>
+  
+  <p>You can also reach me at:</p>
+  <ul>
+    <li>Email: <a href="mailto:youremail@example.com">mbuleloqaba@gmail.com</a></li>
+    <li>Phone: 060 381 7674</li>
+    <li>Social Media: <a href="https://www.facebook.com/mbulelo">Facebook</a>, <a href="https://twitter.com/mbulelo">Twitter</a>, <a href="https://www.instagram.com/mbulelo">Instagram</a></li>
+  </ul>
+  <footer>
+    <p>&copy; 2023 Mbulelo Qaba's Cooking Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

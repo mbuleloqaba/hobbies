@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="hobby.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="saveforlater.html">Save for Later <span id="saved-count">(0)</span></a></li>
+        
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>My Favorite Recipes</h2>
+    <table>
+        <tr>
+            <th>Recipe Name</th>
+            <th>Category</th>
+            <th>Difficulty</th>
+        </tr>
+        <tr>
+            <td>Chocolate Chip Cookies</td>
+            <td>Dessert</td>
+            <td>Easy</td>
+        </tr>
+        <tr>
+            <td>Beef Stew</td>
+            <td>Main Course</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Quiche</td>
+            <td>Brunch</td>
+            <td>Intermediate</td>
+        </tr>
+    </table>
+    <ul>
+        <li><a href="chocolate-chip-cookies.html">Get the recipe for my famous chocolate chip cookies!</a></li>
+        <li><a href="beef-stew.html">Learn how to make a hearty beef stew that will warm you up on a cold day.</a></li>
+        <li><a href="spinach-and-feta-quiche.html">Try out this delicious spinach and feta quiche for your next brunch.</a></li>
+    </ul>
+    <p>Let me know what types of recipes you'd like to receive in your newsletter:</p>
+    
+    <section>
+        <script src="hobby.js"></script>
+        <h1>My Recipes</h1>
+        <ul>
+          <li>
+            <div class="item" id="item-1">
+                <h3 class="item-name">chocolate-chip-cookies</h3>
+                <img src="https://www.shugarysweets.com/wp-content/uploads/2020/05/chocolate-chip-cookies-recipe-735x735.jpg">
+                <button class="save-btn">Save for Later</button>
+                <button class="like-btn">Like</button>
+                <span class="like-count">0</span>
+                
+              </div>
+              <div class="item" id="item-1">
+                <h3 class="item-name">Beef Stew</h3>
+                <img src="https://www.daringgourmet.com/wp-content/uploads/2020/02/Beef-Stew-4-500x375.jpg">
+                <button class="save-btn">Save for Later</button>
+                <button class="like-btn">Like</button>
+                <span class="like-count">0</span>
+              </div>
+              
+              <div class="item" id="item-1">
+                <h3 class="item-name">Quiche</h3>
+                <img src="https://img.bestrecipes.com.au/lVxy1TVd/br/2021/05/bacon_cheese_quiche_hash_brown_crust_final-962791-1.jpg">
+                <button class="save-btn">Save for Later</button>
+                <button class="like-btn">Like</button>
+                <span class="like-count">0</span>
+              </div>
+              
+              
+          </li>
+        </ul>
+      </section>
+    </main>
+  
+    <footer>
+      <h2>Leave a Comment</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+    <footer>
+        <p>&copy; 2023 Mbulelo Qaba's Cooking Website. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
